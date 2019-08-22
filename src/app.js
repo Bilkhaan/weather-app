@@ -6,6 +6,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.PORT
 
 // set paths for use
 const templatesPath = path.join(__dirname, '../templates/views')
@@ -101,6 +102,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(4200, () => {
+app.listen(port, () => {
     console.log('server started')
 })
