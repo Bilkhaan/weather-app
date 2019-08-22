@@ -1,0 +1,20 @@
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+footer {
+    border-top: 1px gray;
+    margin-top: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
